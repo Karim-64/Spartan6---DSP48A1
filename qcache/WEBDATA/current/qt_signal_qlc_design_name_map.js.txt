@@ -1,0 +1,17 @@
+0@#@{cout,post_add_sub}
+1@#@CYO.q
+2@#@bcin
+3@#@carryin
+4@#@ccec
+5@#@out
+6@#@m10.b > m10.out > post_add > ... > x_mux > p > m10.b
+7@#@m1.out
+8@#@m11.out
+9@#@m2.out
+10@#@m3.out
+11@#@m4.out
+12@#@m6.out
+13@#@m7.out
+14@#@m8.out
+15@#@op_mux.out
+

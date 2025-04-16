@@ -1,0 +1,100 @@
+# Current time Sun Feb 23 13:55:25 2025
+# Program = hdlclient.exe
+# Id = "2021.1"
+# Version = "2021.01"
+# Date = "Jan 19 2021"
+# Platform = win64
+# Signature = d08f71b03e21bd256371aa8771188eee
+# --> START OF USERCODE
+# 0    0x0000000088b8fc49: 'zi_::rtld::hdUtil::designObjectFromHdDb + 0x59'
+# 1    0x0000000088b8a132: 'zi_::rtld::hdUtil::mwidPathToObject + 0x112'
+# 2    0x0000000086e9d559: 'boost::archive::detail::iserializer<boost::archive::binary_iarchive,std::vector<zi_::PropDataS,std::allocator<zi_::PropDataS> > >::load_object_data + 0xdfd89'
+# 3    0x0000000086f2743d: 'boost::archive::detail::iserializer<boost::archive::binary_iarchive,std::vector<zi_::PropDataS,std::allocator<zi_::PropDataS> > >::load_object_data + 0x169c6d'
+# <-- END OF USERCODE
+# 4    0x00007ff87a19c9ed: 'QCoreApplicationPrivate::sendThroughObjectEventFilters + 0xdd'
+# 5    0x00007ff886478737: 'QApplicationPrivate::notify_helper + 0x127'
+# 6    0x00007ff886477735: 'QApplication::notify + 0x1b25'
+# 7    0x00007ff87a19a774: 'QCoreApplication::notifyInternal2 + 0xb4'
+# 8    0x00007ff8864a0494: 'QWidgetPrivate::hide_helper + 0xf4'
+# 9    0x00007ff8864af3bb: 'QWidgetPrivate::setVisible + 0x2eb'
+# 10   0x00007ff8864961d9: 'QStackedLayout::takeAt + 0x119'
+# 11   0x00007ff88648f808: 'QLayout::removeWidget + 0x38'
+# --> START OF USERCODE
+# 12   0x0000000086f25ef9: 'boost::archive::detail::iserializer<boost::archive::binary_iarchive,std::vector<zi_::PropDataS,std::allocator<zi_::PropDataS> > >::load_object_data + 0x168729'
+# 13   0x00000000871479db: 'boost::archive::detail::iserializer<boost::archive::binary_iarchive,std::vector<zi_::PropDataS,std::allocator<zi_::PropDataS> > >::load_object_data + 0x38a20b'
+# 14   0x00000000875c1792: 'boost::archive::detail::oserializer<boost::archive::binary_oarchive,zi_::GuiSasOptionsS>::save_object_data + 0x17d0c2'
+# <-- END OF USERCODE
+# 15   0x00007ff87a1bb74a: 'QMetaObject::activate + 0x59a'
+# 16   0x000000014006fa14: '<unknown(@0x14006fa14)>'
+# 17   0x00007ff87a1bb74a: 'QMetaObject::activate + 0x59a'
+# 18   0x000000014006ef44: '<unknown(@0x14006ef44)>'
+# 19   0x000000014002f8ba: '<unknown(@0x14002f8ba)>'
+# 20   0x000000014008c970: '<unknown(@0x14008c970)>'
+# 21   0x00007ff88649e0f3: 'QWidget::event + 0x693'
+# 22   0x00007ff88647874b: 'QApplicationPrivate::notify_helper + 0x13b'
+# 23   0x00007ff886477735: 'QApplication::notify + 0x1b25'
+# 24   0x00007ff87a19a774: 'QCoreApplication::notifyInternal2 + 0xb4'
+# 25   0x00007ff88649ac93: 'QWidgetPrivate::close_helper + 0xf3'
+# 26   0x00000001401753d8: '<unknown(@0x1401753d8)>'
+# 27   0x00007ff87a1bb74a: 'QMetaObject::activate + 0x59a'
+# 28   0x00007ff886468199: 'QAction::activate + 0x109'
+# 29   0x000000014086136b: '<unknown(@0x14086136b)>'
+# 30   0x000000007d6170fe: 'TclNRRunCallbacks + 0x5e'
+# 31   0x000000007d61896f: 'TclEvalEx + 0x9ff'
+# 32   0x000000007d6191a3: 'Tcl_Eval + 0x33'
+# 33   0x00000001400343a8: '<unknown(@0x1400343a8)>'
+# --> START OF USERCODE
+# 34   0x0000000087168aa8: 'boost::archive::detail::iserializer<boost::archive::binary_iarchive,std::vector<zi_::PropDataS,std::allocator<zi_::PropDataS> > >::load_object_data + 0x3ab2d8'
+# <-- END OF USERCODE
+# 35   0x00007ff87a1bb74a: 'QMetaObject::activate + 0x59a'
+# --> START OF USERCODE
+# 36   0x00000000875c2b6b: 'boost::archive::detail::oserializer<boost::archive::binary_oarchive,zi_::GuiSasOptionsS>::save_object_data + 0x17e49b'
+# 37   0x0000000087165a95: 'boost::archive::detail::iserializer<boost::archive::binary_iarchive,std::vector<zi_::PropDataS,std::allocator<zi_::PropDataS> > >::load_object_data + 0x3a82c5'
+# 38   0x00000000875834db: 'boost::archive::detail::oserializer<boost::archive::binary_oarchive,zi_::GuiSasOptionsS>::save_object_data + 0x13ee0b'
+# 39   0x000000008a5eeb27: 'zi_::SignalManager::broadcastSignal + 0x4e7'
+# 40   0x0000000088e24715: 'zi_::broadcastSignal<26,std::tuple<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::basic_string<char,std::char_traits<char>,std::allocator<char> >,int> > + 0x2d5'
+# 41   0x0000000088e072b5: 'broadcast_rtld_dumped_signal_for_gui + 0x2f5'
+# 42   0x0000000088dd12ba: 'isVisguiMode + 0x280a'
+# 43   0x0000000088dba6cc: 'zi_rtld_tcl_prim_qlc_run + 0xec'
+# 44   0x0000000088de4557: 'zi_rtld_tcl_prim_generic_recur + 0x537'
+# 45   0x0000000088de4162: 'zi_rtld_tcl_prim_generic_recur + 0x142'
+# 46   0x0000000088de46bd: 'zi_rtld_tcl_prim_generic + 0xcd'
+# 47   0x0000000088dcb8b3: 'tcl_prim_capture_wrapper + 0x1a3'
+# <-- END OF USERCODE
+# 48   0x000000007d615221: 'TclInvokeStringCommand + 0xc1'
+# 49   0x000000007d6170fe: 'TclNRRunCallbacks + 0x5e'
+# 50   0x000000007d61896f: 'TclEvalEx + 0x9ff'
+# 51   0x000000007d6191a3: 'Tcl_Eval + 0x33'
+# --> START OF USERCODE
+# 52   0x0000000086ce7e3a: 'boost::serialization::singleton_module::unlock + 0x6cf0a'
+# 53   0x000000008a3ab8f8: 'zi_::ProjectManagerImpl::RunGoal + 0x418'
+# 54   0x000000008713fafd: 'boost::archive::detail::iserializer<boost::archive::binary_iarchive,std::vector<zi_::PropDataS,std::allocator<zi_::PropDataS> > >::load_object_data + 0x38232d'
+# 55   0x00000000874af797: 'boost::archive::detail::oserializer<boost::archive::binary_oarchive,zi_::GuiSasOptionsS>::save_object_data + 0x6b0c7'
+# <-- END OF USERCODE
+# 56   0x00007ff87a1bb74a: 'QMetaObject::activate + 0x59a'
+# 57   0x00007ff88654a442: 'QAbstractButtonPrivate::emitClicked + 0x62'
+# 58   0x00007ff88654a364: 'QAbstractButtonPrivate::click + 0xf4'
+# 59   0x00007ff88654b067: 'QAbstractButton::mouseReleaseEvent + 0x87'
+# 60   0x00007ff88649dba1: 'QWidget::event + 0x141'
+# 61   0x00007ff88647874b: 'QApplicationPrivate::notify_helper + 0x13b'
+# 62   0x00007ff886476498: 'QApplication::notify + 0x888'
+# 63   0x00007ff87a19a774: 'QCoreApplication::notifyInternal2 + 0xb4'
+# 64   0x00007ff886479ee0: 'QApplicationPrivate::sendMouseEvent + 0x400'
+# 65   0x00007ff8864c790e: 'QWidgetWindow::handleMouseEvent + 0xc0e'
+# 66   0x00007ff8864c5720: 'QWidgetWindow::event + 0x3c0'
+# 67   0x00007ff88647874b: 'QApplicationPrivate::notify_helper + 0x13b'
+# 68   0x00007ff886477735: 'QApplication::notify + 0x1b25'
+# 69   0x00007ff87a19a774: 'QCoreApplication::notifyInternal2 + 0xb4'
+# 70   0x00007ff87a618ade: 'QGuiApplicationPrivate::processMouseEvent + 0x9ce'
+# 71   0x00007ff87a603ee6: 'QWindowSystemInterface::sendWindowSystemEvents + 0x96'
+# 72   0x00007ff87a1e52a3: 'qt_internal_proc + 0x4e3'
+# 73   0x00007ff8c6f3ef57: 'CallWindowProcW + 0x607'
+# 74   0x00007ff8c6f3e67f: 'DispatchMessageW + 0x49f'
+# 75   0x00000001409b3b94: '<unknown(@0x1409b3b94)>'
+# 76   0x000000007d6ca9ae: 'Tcl_DoOneEvent + 0x14e'
+# 77   0x000000014004f056: '<unknown(@0x14004f056)>'
+# 78   0x0000000140015cbc: '<unknown(@0x140015cbc)>'
+# 79   0x00000001410c41f7: '<unknown(@0x1410c41f7)>'
+# End of Stack Trace
+
+

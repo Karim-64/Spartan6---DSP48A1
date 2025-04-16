@@ -1,0 +1,15 @@
+assign_width_underflow:off
+const_reg_data:on
+unloaded_input_port:on
+ordered_port_connection:off
+multiplication_operator:off
+conditional_operator_nested:off
+reserved_keyword:off
+condition_const:off
+combo_loop:on
+assign_with_multi_arith_operations:off
+parameter_name_duplicate:off
+multi_ports_in_single_line:off
+mux_select_const:on
+gen_label_missing:off
+

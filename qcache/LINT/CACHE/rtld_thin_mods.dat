@@ -1,0 +1,732 @@
+>1
+>2
+14
+0:14:dff_1232110868
+1:3:dff
+2:4:work
+3:33:D:/Digital_Design/Project_1/DFF.v
+4:7:genblk1
+5:12:32'h53594e43
+6:7:RSTTYPE
+7:5:32'h8
+8:5:WIDTH
+9:3:clk
+10:1:d
+11:6:enable
+12:1:q
+13:3:rst
+<2
+>3
+4
+0:127:10 "scalar[31:0]" "<zin_internal>" 0 36 1 7 "integer[31:0]" "<zin_internal>" 0 10 32 31 0 7 "scalar" "<zin_internal>" 0 0 1 0 0
+1:140:10 "scalar signed[31:0]" "<zin_internal>" 0 6 1 7 "integer[31:0]" "<zin_internal>" 0 10 32 31 0 7 "scalar signed" "<zin_internal>" 0 2 1 0 0
+2:37:7 "scalar" "<zin_internal>" 0 0 1 0 0
+3:123:10 "scalar[7:0]" "<zin_internal>" 0 4 1 7 "integer[7:0]" "<zin_internal>" 0 10 32 7 0 7 "scalar" "<zin_internal>" 0 0 1 0 0
+<3
+>4
+e1b2f3l1.21t0C1B4P3S8E8c2p6v5F0L3T0U0p8v7F0L2T1U0;
+<4
+>5
+b5@9l5knt2;
+@10l4knt3;
+@11l5knt2;
+@12l6knt3;
+@13l5knt2;
+<5
+>6
+b5@10l6x2t3;
+@12l6d1x4t3;
+@9l6x1t2;
+@11l6x3t2;
+@13l6x5t2;
+<6
+>7
+c0
+<7
+<1
+>1
+>2
+10
+0:11:mux2_916759
+1:4:mux2
+2:4:work
+3:34:D:/Digital_Design/Project_1/mux2.v
+4:5:32'h8
+5:5:WIDTH
+6:1:a
+7:1:b
+8:3:out
+9:3:sel
+<2
+>3
+3
+0:140:10 "scalar signed[31:0]" "<zin_internal>" 0 6 1 7 "integer[31:0]" "<zin_internal>" 0 10 32 31 0 7 "scalar signed" "<zin_internal>" 0 2 1 0 0
+1:123:10 "scalar[7:0]" "<zin_internal>" 0 4 1 7 "integer[7:0]" "<zin_internal>" 0 10 32 7 0 7 "scalar" "<zin_internal>" 0 0 1 0 0
+2:37:7 "scalar" "<zin_internal>" 0 0 1 0 0
+<3
+>4
+#1e1b2f3l1.7t0c1p5v4F0L2T0U0;
+<4
+>5
+b4@6l3knt1;
+@7l3knt1;
+@8l5knt1;
+@9l4knt2;
+<5
+>6
+b4@6l5x1t1;
+@7l5x2t1;
+@9l5x4t2;
+@8l5d1x3t1;
+<6
+>7
+c0
+<7
+<1
+>1
+>2
+14
+0:14:dff_1722809974
+1:3:dff
+2:4:work
+3:33:D:/Digital_Design/Project_1/DFF.v
+4:7:genblk1
+5:12:32'h53594e43
+6:7:RSTTYPE
+7:6:32'h12
+8:5:WIDTH
+9:3:clk
+10:1:d
+11:6:enable
+12:1:q
+13:3:rst
+<2
+>3
+4
+0:127:10 "scalar[31:0]" "<zin_internal>" 0 36 1 7 "integer[31:0]" "<zin_internal>" 0 10 32 31 0 7 "scalar" "<zin_internal>" 0 0 1 0 0
+1:140:10 "scalar signed[31:0]" "<zin_internal>" 0 6 1 7 "integer[31:0]" "<zin_internal>" 0 10 32 31 0 7 "scalar signed" "<zin_internal>" 0 2 1 0 0
+2:37:7 "scalar" "<zin_internal>" 0 0 1 0 0
+3:126:10 "scalar[17:0]" "<zin_internal>" 0 4 1 7 "integer[17:0]" "<zin_internal>" 0 10 32 17 0 7 "scalar" "<zin_internal>" 0 0 1 0 0
+<3
+>4
+#2e1b2f3l1.21t0C1B4P3S8E8c2p6v5F0L3T0U0p8v7F0L2T1U0;
+<4
+>5
+b5@9l5knt2;
+@10l4knt3;
+@11l5knt2;
+@12l6knt3;
+@13l5knt2;
+<5
+>6
+b5@10l6x2t3;
+@12l6d1x4t3;
+@9l6x1t2;
+@11l6x3t2;
+@13l6x5t2;
+<6
+>7
+c0
+<7
+<1
+>1
+>2
+10
+0:15:mux2_1715354008
+1:4:mux2
+2:4:work
+3:34:D:/Digital_Design/Project_1/mux2.v
+4:6:32'h12
+5:5:WIDTH
+6:1:a
+7:1:b
+8:3:out
+9:3:sel
+<2
+>3
+3
+0:140:10 "scalar signed[31:0]" "<zin_internal>" 0 6 1 7 "integer[31:0]" "<zin_internal>" 0 10 32 31 0 7 "scalar signed" "<zin_internal>" 0 2 1 0 0
+1:126:10 "scalar[17:0]" "<zin_internal>" 0 4 1 7 "integer[17:0]" "<zin_internal>" 0 10 32 17 0 7 "scalar" "<zin_internal>" 0 0 1 0 0
+2:37:7 "scalar" "<zin_internal>" 0 0 1 0 0
+<3
+>4
+#3e1b2f3l1.7t0c1p5v4F0L2T0U0;
+<4
+>5
+b4@6l3knt1;
+@7l3knt1;
+@8l5knt1;
+@9l4knt2;
+<5
+>6
+b4@6l5x1t1;
+@7l5x2t1;
+@9l5x4t2;
+@8l5d1x3t1;
+<6
+>7
+c0
+<7
+<1
+>1
+>2
+14
+0:14:dff_1737269506
+1:3:dff
+2:4:work
+3:33:D:/Digital_Design/Project_1/DFF.v
+4:7:genblk1
+5:12:32'h53594e43
+6:7:RSTTYPE
+7:6:32'h30
+8:5:WIDTH
+9:3:clk
+10:1:d
+11:6:enable
+12:1:q
+13:3:rst
+<2
+>3
+4
+0:127:10 "scalar[31:0]" "<zin_internal>" 0 36 1 7 "integer[31:0]" "<zin_internal>" 0 10 32 31 0 7 "scalar" "<zin_internal>" 0 0 1 0 0
+1:140:10 "scalar signed[31:0]" "<zin_internal>" 0 6 1 7 "integer[31:0]" "<zin_internal>" 0 10 32 31 0 7 "scalar signed" "<zin_internal>" 0 2 1 0 0
+2:37:7 "scalar" "<zin_internal>" 0 0 1 0 0
+3:126:10 "scalar[47:0]" "<zin_internal>" 0 4 1 7 "integer[47:0]" "<zin_internal>" 0 10 32 47 0 7 "scalar" "<zin_internal>" 0 0 1 0 0
+<3
+>4
+#4e1b2f3l1.21t0C1B4P3S8E8c2p6v5F0L3T0U0p8v7F0L2T1U0;
+<4
+>5
+b5@9l5knt2;
+@10l4knt3;
+@11l5knt2;
+@12l6knt3;
+@13l5knt2;
+<5
+>6
+b5@10l6x2t3;
+@12l6d1x4t3;
+@9l6x1t2;
+@11l6x3t2;
+@13l6x5t2;
+<6
+>7
+c0
+<7
+<1
+>1
+>2
+10
+0:14:mux2_334600282
+1:4:mux2
+2:4:work
+3:34:D:/Digital_Design/Project_1/mux2.v
+4:6:32'h30
+5:5:WIDTH
+6:1:a
+7:1:b
+8:3:out
+9:3:sel
+<2
+>3
+3
+0:140:10 "scalar signed[31:0]" "<zin_internal>" 0 6 1 7 "integer[31:0]" "<zin_internal>" 0 10 32 31 0 7 "scalar signed" "<zin_internal>" 0 2 1 0 0
+1:126:10 "scalar[47:0]" "<zin_internal>" 0 4 1 7 "integer[47:0]" "<zin_internal>" 0 10 32 47 0 7 "scalar" "<zin_internal>" 0 0 1 0 0
+2:37:7 "scalar" "<zin_internal>" 0 0 1 0 0
+<3
+>4
+#5e1b2f3l1.7t0c1p5v4F0L2T0U0;
+<4
+>5
+b4@6l3knt1;
+@7l3knt1;
+@8l5knt1;
+@9l4knt2;
+<5
+>6
+b4@6l5x1t1;
+@7l5x2t1;
+@9l5x4t2;
+@8l5d1x3t1;
+<6
+>7
+c0
+<7
+<1
+>1
+>2
+14
+0:13:dff_498692265
+1:3:dff
+2:4:work
+3:33:D:/Digital_Design/Project_1/DFF.v
+4:7:genblk1
+5:12:32'h53594e43
+6:7:RSTTYPE
+7:6:32'h24
+8:5:WIDTH
+9:3:clk
+10:1:d
+11:6:enable
+12:1:q
+13:3:rst
+<2
+>3
+4
+0:127:10 "scalar[31:0]" "<zin_internal>" 0 36 1 7 "integer[31:0]" "<zin_internal>" 0 10 32 31 0 7 "scalar" "<zin_internal>" 0 0 1 0 0
+1:140:10 "scalar signed[31:0]" "<zin_internal>" 0 6 1 7 "integer[31:0]" "<zin_internal>" 0 10 32 31 0 7 "scalar signed" "<zin_internal>" 0 2 1 0 0
+2:37:7 "scalar" "<zin_internal>" 0 0 1 0 0
+3:126:10 "scalar[35:0]" "<zin_internal>" 0 4 1 7 "integer[35:0]" "<zin_internal>" 0 10 32 35 0 7 "scalar" "<zin_internal>" 0 0 1 0 0
+<3
+>4
+#6e1b2f3l1.21t0C1B4P3S8E8c2p6v5F0L3T0U0p8v7F0L2T1U0;
+<4
+>5
+b5@9l5knt2;
+@10l4knt3;
+@11l5knt2;
+@12l6knt3;
+@13l5knt2;
+<5
+>6
+b5@10l6x2t3;
+@12l6d1x4t3;
+@9l6x1t2;
+@11l6x3t2;
+@13l6x5t2;
+<6
+>7
+c0
+<7
+<1
+>1
+>2
+10
+0:14:mux2_260616327
+1:4:mux2
+2:4:work
+3:34:D:/Digital_Design/Project_1/mux2.v
+4:6:32'h24
+5:5:WIDTH
+6:1:a
+7:1:b
+8:3:out
+9:3:sel
+<2
+>3
+3
+0:140:10 "scalar signed[31:0]" "<zin_internal>" 0 6 1 7 "integer[31:0]" "<zin_internal>" 0 10 32 31 0 7 "scalar signed" "<zin_internal>" 0 2 1 0 0
+1:126:10 "scalar[35:0]" "<zin_internal>" 0 4 1 7 "integer[35:0]" "<zin_internal>" 0 10 32 35 0 7 "scalar" "<zin_internal>" 0 0 1 0 0
+2:37:7 "scalar" "<zin_internal>" 0 0 1 0 0
+<3
+>4
+#7e1b2f3l1.7t0c1p5v4F0L2T0U0;
+<4
+>5
+b4@6l3knt1;
+@7l3knt1;
+@8l5knt1;
+@9l4knt2;
+<5
+>6
+b4@6l5x1t1;
+@7l5x2t1;
+@9l5x4t2;
+@8l5d1x3t1;
+<6
+>7
+c0
+<7
+<1
+>1
+>2
+12
+0:15:mux4_1931037142
+1:4:mux4
+2:4:work
+3:34:D:/Digital_Design/Project_1/mux4.v
+4:6:32'h30
+5:5:WIDTH
+6:1:a
+7:1:b
+8:1:c
+9:1:d
+10:3:out
+11:3:sel
+<2
+>3
+3
+0:140:10 "scalar signed[31:0]" "<zin_internal>" 0 6 1 7 "integer[31:0]" "<zin_internal>" 0 10 32 31 0 7 "scalar signed" "<zin_internal>" 0 2 1 0 0
+1:126:10 "scalar[47:0]" "<zin_internal>" 0 4 1 7 "integer[47:0]" "<zin_internal>" 0 10 32 47 0 7 "scalar" "<zin_internal>" 0 0 1 0 0
+2:123:10 "scalar[1:0]" "<zin_internal>" 0 4 1 7 "integer[1:0]" "<zin_internal>" 0 10 32 1 0 7 "scalar" "<zin_internal>" 0 0 1 0 0
+<3
+>4
+#8e1b2f3l1.14t0c1p5v4F0L2T0U0;
+<4
+>5
+b6@6l3knt1;
+@7l3knt1;
+@8l3knt1;
+@9l3knt1;
+@10l5knt1;
+@11l4knt2;
+<5
+>6
+b6@6l5x1t1;
+@7l5x2t1;
+@8l5x3t1;
+@9l5x4t1;
+@11l5x6t2;
+@10l5d1x5t1;
+<6
+>7
+c0
+<7
+<1
+>1
+>2
+14
+0:12:dff_50057751
+1:3:dff
+2:4:work
+3:33:D:/Digital_Design/Project_1/DFF.v
+4:7:genblk1
+5:12:32'h53594e43
+6:7:RSTTYPE
+7:5:32'b1
+8:5:WIDTH
+9:3:clk
+10:1:d
+11:6:enable
+12:1:q
+13:3:rst
+<2
+>3
+4
+0:127:10 "scalar[31:0]" "<zin_internal>" 0 36 1 7 "integer[31:0]" "<zin_internal>" 0 10 32 31 0 7 "scalar" "<zin_internal>" 0 0 1 0 0
+1:140:10 "scalar signed[31:0]" "<zin_internal>" 0 6 1 7 "integer[31:0]" "<zin_internal>" 0 10 32 31 0 7 "scalar signed" "<zin_internal>" 0 2 1 0 0
+2:37:7 "scalar" "<zin_internal>" 0 0 1 0 0
+3:123:10 "scalar[0:0]" "<zin_internal>" 0 4 1 7 "integer[0:0]" "<zin_internal>" 0 10 32 0 0 7 "scalar" "<zin_internal>" 0 0 1 0 0
+<3
+>4
+#9e1b2f3l1.21t0C1B4P3S8E8c2p6v5F0L3T0U0p8v7F0L2T1U0;
+<4
+>5
+b5@9l5knt2;
+@10l4knt3;
+@11l5knt2;
+@12l6knt3;
+@13l5knt2;
+<5
+>6
+b5@10l6x2t3;
+@12l6d1x4t3;
+@9l6x1t2;
+@11l6x3t2;
+@13l6x5t2;
+<6
+>7
+c0
+<7
+<1
+>1
+>2
+10
+0:15:mux2_1956874437
+1:4:mux2
+2:4:work
+3:34:D:/Digital_Design/Project_1/mux2.v
+4:5:32'b1
+5:5:WIDTH
+6:1:a
+7:1:b
+8:3:out
+9:3:sel
+<2
+>3
+3
+0:140:10 "scalar signed[31:0]" "<zin_internal>" 0 6 1 7 "integer[31:0]" "<zin_internal>" 0 10 32 31 0 7 "scalar signed" "<zin_internal>" 0 2 1 0 0
+1:123:10 "scalar[0:0]" "<zin_internal>" 0 4 1 7 "integer[0:0]" "<zin_internal>" 0 10 32 0 0 7 "scalar" "<zin_internal>" 0 0 1 0 0
+2:37:7 "scalar" "<zin_internal>" 0 0 1 0 0
+<3
+>4
+#10e1b2f3l1.7t0c1p5v4F0L2T0U0;
+<4
+>5
+b4@6l3knt1;
+@7l3knt1;
+@8l5knt1;
+@9l4knt2;
+<5
+>6
+b4@6l5x1t1;
+@7l5x2t1;
+@9l5x4t2;
+@8l5d1x3t1;
+<6
+>7
+c0
+<7
+<1
+>1
+>2
+113
+0:7:DSP48A1
+1:4:work
+2:36:D:/Digital_Design/Project_1/design.v
+3:5:32'b0
+4:5:A0REG
+5:5:32'b1
+6:5:A1REG
+7:5:B0REG
+8:5:B1REG
+9:16:48'h444952454354
+10:7:B_INPUT
+11:10:CARRYINREG
+12:18:56'h4f504d4f444535
+13:10:CARRYINSEL
+14:11:CARRYOUTREG
+15:4:CREG
+16:4:DREG
+17:4:MREG
+18:9:OPMODEREG
+19:4:PREG
+20:12:32'h53594e43
+21:7:RSTTYPE
+22:1:a
+23:6:a0_mux
+24:6:a0_reg
+25:6:a1_mux
+26:6:a1_reg
+27:1:b
+28:6:b0_mux
+29:6:b0_reg
+30:6:b1_mux
+31:6:b1_reg
+32:4:bcin
+33:5:bcout
+34:7:bin_mux
+35:1:c
+36:5:c_mux
+37:5:c_reg
+38:7:carryin
+39:8:carryout
+40:9:carryoutf
+41:4:ccec
+42:3:cea
+43:3:ceb
+44:9:cecarryin
+45:3:ced
+46:3:cem
+47:8:ceopmode
+48:3:cep
+49:8:cin0_mux
+50:8:cin1_mux
+51:7:cin_reg
+52:3:clk
+53:4:cout
+54:8:cout_mux
+55:8:cout_reg
+56:1:d
+57:5:d_mux
+58:5:d_reg
+59:1:m
+60:5:m_mux
+61:5:m_reg
+62:5:m_res
+63:6:opmode
+64:10:opmode_mux
+65:10:opmode_reg
+66:1:p
+67:4:padd
+68:8:padd_sub
+69:12:padd_sub_mux
+70:4:pcin
+71:5:pcout
+72:8:post_add
+73:12:post_add_sub
+74:16:post_add_sub_mux
+75:16:post_add_sub_reg
+76:8:post_sub
+77:4:psub
+78:4:rsta
+79:4:rstb
+80:4:rstc
+81:10:rstcarryin
+82:4:rstd
+83:4:rstm
+84:9:rstopmode
+85:4:rstp
+86:5:x_mux
+87:5:z_mux
+88:6:A0_REG
+89:6:A1_REG
+90:6:B0_REG
+91:6:B1_REG
+92:5:C_REG
+93:3:CYI
+94:3:CYO
+95:5:D_REG
+96:2:m1
+97:2:m2
+98:2:m3
+99:2:m4
+100:2:m5
+101:2:m6
+102:2:m7
+103:2:m8
+104:2:m9
+105:3:m10
+106:3:m11
+107:3:m12
+108:3:m13
+109:5:M_REG
+110:6:op_mux
+111:10:OPMODE_REG
+112:5:P_REG
+<2
+>3
+9
+0:140:10 "scalar signed[31:0]" "<zin_internal>" 0 6 1 7 "integer[31:0]" "<zin_internal>" 0 10 32 31 0 7 "scalar signed" "<zin_internal>" 0 2 1 0 0
+1:127:10 "scalar[47:0]" "<zin_internal>" 0 36 1 7 "integer[47:0]" "<zin_internal>" 0 10 32 47 0 7 "scalar" "<zin_internal>" 0 0 1 0 0
+2:127:10 "scalar[55:0]" "<zin_internal>" 0 36 1 7 "integer[55:0]" "<zin_internal>" 0 10 32 55 0 7 "scalar" "<zin_internal>" 0 0 1 0 0
+3:127:10 "scalar[31:0]" "<zin_internal>" 0 36 1 7 "integer[31:0]" "<zin_internal>" 0 10 32 31 0 7 "scalar" "<zin_internal>" 0 0 1 0 0
+4:126:10 "scalar[17:0]" "<zin_internal>" 0 4 1 7 "integer[17:0]" "<zin_internal>" 0 10 32 17 0 7 "scalar" "<zin_internal>" 0 0 1 0 0
+5:126:10 "scalar[47:0]" "<zin_internal>" 0 4 1 7 "integer[47:0]" "<zin_internal>" 0 10 32 47 0 7 "scalar" "<zin_internal>" 0 0 1 0 0
+6:37:7 "scalar" "<zin_internal>" 0 0 1 0 0
+7:126:10 "scalar[35:0]" "<zin_internal>" 0 4 1 7 "integer[35:0]" "<zin_internal>" 0 10 32 35 0 7 "scalar" "<zin_internal>" 0 0 1 0 0
+8:123:10 "scalar[7:0]" "<zin_internal>" 0 4 1 7 "integer[7:0]" "<zin_internal>" 0 10 32 7 0 7 "scalar" "<zin_internal>" 0 0 1 0 0
+<3
+>4
+#11b1f2l1.111t0c14p4v3F0L2T0U0p6v5F0L3T0U0p7v3F0L4T0U0p8v5F0L5T0U0p10v9F0L17T1U0p11v5F0L11T0U0p13v12F0L15T2U0p14v5F0L12T0U0p15v5F0L7T0U0p16v5F0L8T0U0p17v5F0L9T0U0p18v5F0L13T0U0p19v5F0L10T0U0p21v20F0L19T3U0;
+<4
+>5
+b66@22l21knt4;
+@23l49knt4;
+@24l49knt4;
+@25l69knt4;
+@26l69knt4;
+@27l21knt4;
+@28l43knt4;
+@29l43knt4;
+@30l59knt4;
+@31l59knt4;
+@32l21knt4;
+@33l26knt4;
+@34l43knt4;
+@35l22knt5;
+@36l54knt5;
+@37l54knt5;
+@38l25knt6;
+@39l29knt6;
+@40l29knt6;
+@41l25knt6;
+@42l25knt6;
+@43l25knt6;
+@44l25knt6;
+@45l25knt6;
+@46l25knt6;
+@47l25knt6;
+@48l25knt6;
+@49l89knt6;
+@50l89knt6;
+@51l89knt6;
+@52l25knt6;
+@53l96knt6;
+@54l106knt6;
+@55l106knt6;
+@56l21knt4;
+@57l38knt4;
+@58l38knt4;
+@59l28knt7;
+@60l74knt7;
+@61l74knt7;
+@62l74knt7;
+@63l23knt8;
+@64l33knt8;
+@65l33knt8;
+@66l27knt5;
+@67l59knt4;
+@68l59knt4;
+@69l59knt4;
+@70l22knt5;
+@71l27knt5;
+@72l95knt5;
+@73l95knt5;
+@74l95knt5;
+@75l95knt5;
+@76l95knt5;
+@77l59knt4;
+@78l24knt6;
+@79l24knt6;
+@80l24knt6;
+@81l24knt6;
+@82l24knt6;
+@83l24knt6;
+@84l24knt6;
+@85l24knt6;
+@86l81knt5;
+@87l85knt5;
+<5
+>6
+b31@22x1t4;
+@27x6t4;
+@56x35t4;
+@32x11t4;
+@35x14t5;
+@70x49t5;
+@63x42t8;
+@78x57t6;
+@79x58t6;
+@83x62t6;
+@85x64t6;
+@80x59t6;
+@82x61t6;
+@81x60t6;
+@84x63t6;
+@42x21t6;
+@43x22t6;
+@46x25t6;
+@48x27t6;
+@41x20t6;
+@45x24t6;
+@44x23t6;
+@47x26t6;
+@52x31t6;
+@38x17t6;
+@33d1x12t4;
+@71d1x50t5;
+@66d1x45t5;
+@59d1x38t7;
+@39d1x18t6;
+@40d1x19t6;
+<6
+>7
+c25
+#2@88i104l50x3 7 0 16;
+#2@89i111l70x3 7 0 16;
+#2@90i102l45x3 7 0 16;
+#2@91i109l64x3 7 0 16;
+#4@92i106l55x3 7 0 16;
+#9@93i117l91x3 7 0 16;
+#9@94i121l107x3 7 0 16;
+#2@95i100l39x3 7 0 16;
+#3@96i101l40x3 7 0 12;
+#3@97i103l46x3 7 0 12;
+#3@98i105l51x3 7 0 12;
+#5@99i107l56x3 7 0 12;
+#3@100i108l63x3 7 0 12;
+#3@101i110l65x3 7 0 12;
+#3@102i112l71x3 7 0 12;
+#7@103i114l77x3 7 0 12;
+#8@104i115l82x3 7 0 20;
+#8@105i116l86x3 7 0 20;
+#10@106i118l92x3 7 0 12;
+#5@107i120l101x3 7 0 12;
+#10@108i122l108x3 7 0 12;
+#6@109i113l76x3 7 0 16;
+#1@110i99l35x3 7 0 12;
+@111i98l34x3 7 0 16;
+#4@112i119l100x3 7 0 16;
+<7
+<1

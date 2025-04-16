@@ -1,0 +1,11 @@
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+Start time: 17:51:31 on Mar 05,2025
+vlog D:/Digital_Design/Project_1/design.v D:/Digital_Design/Project_1/DFF.v D:/Digital_Design/Project_1/mux2.v -work work 
+-- Compiling module DSP48A1
+-- Compiling module dff
+-- Compiling module mux2
+
+Top level modules:
+	DSP48A1
+End time: 17:51:31 on Mar 05,2025, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0

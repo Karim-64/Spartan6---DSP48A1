@@ -1,0 +1,22 @@
+D:/Digital_Design/Project_1/DFF.v {1 {vlog -work work -vopt -stats=none D:/Digital_Design/Project_1/DFF.v
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module dff
+
+Top level modules:
+	dff
+
+} {} {}} D:/Digital_Design/Project_1/mux2.v {1 {vlog -work work -vopt -stats=none D:/Digital_Design/Project_1/mux2.v
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module mux2
+
+Top level modules:
+	mux2
+
+} {} {}} D:/Digital_Design/Project_1/mux4.v {1 {vlog -work work -vopt -stats=none D:/Digital_Design/Project_1/mux4.v
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module mux4
+
+Top level modules:
+	mux4
+
+} {} {}}

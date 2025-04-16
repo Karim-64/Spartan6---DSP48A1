@@ -1,0 +1,256 @@
+====================================================================================================
+Lint Check Report
+Questa Lint  Version 2021.1 4558100 win64 28-Jan-2021
+
+Timestamp            : Wed Mar  5 17:52:10 2025
+Description          : Report for referring checks count, check violations details, and  design information
+Design               : DSP48A1
+Database             : D:/Digital_Design/Project_1/lint.db
+Design Quality Score : 98.7%
+
+Sections:
+   Section 1 : Check Summary
+   Section 2 : Check Details
+   Section 3 : Design Information
+====================================================================================================
+
+
+====================================================================================================
+Section 1 : Check Summary
+====================================================================================================
+-------------
+| Error (2) |
+-------------
+  combo_loop                              : 1
+  assign_width_underflow                  : 1
+
+----------------
+| Warning (37) |
+----------------
+  condition_const                         : 2
+  mux_select_const                        : 9
+  assign_with_multi_arith_operations      : 1
+  ordered_port_connection                 : 25
+
+-------------
+| Info (15) |
+-------------
+  conditional_operator_nested             : 1
+  const_reg_data                          : 1
+  gen_label_missing                       : 1
+  multiplication_operator                 : 1
+  parameter_name_duplicate                : 2
+  reserved_keyword                        : 2
+  unloaded_input_port                     : 3
+  multi_ports_in_single_line              : 4
+
+----------------
+| Resolved (0) |
+----------------
+
+
+====================================================================================================
+Section 2 : Check Details
+====================================================================================================
+-------------
+| Error (2) |
+-------------
+
+Check: combo_loop [Category: Simulation] (1)
+       [Message: Combinational logic contains feedback loop. Loop Size '<size>', Loop '<loop>', Module '<module>', File '<file>', Line '<line>'.]
+--------------------------------------------------------------------------------------------------------------------------------------------------
+combo_loop: [uninspected] Combinational logic contains feedback loop. Loop Size '13', Loop 'm10.b > m10.out > post_add > ... > x_mux > p > m10.b', Module 'mux4', File 'D:/Digital_Design/Project_1/mux4.v', Line '3'.
+
+
+Check: assign_width_underflow [Category: Rtl Design Style] (1)
+       [Message: Width of assignment RHS is less than width of LHS.  LHS Expression '<lhs_expression>', LHS Width '<lhs_width>', RHS Width '<rhs_width>', Module '<module>', File '<file>', Line '<line>'.]
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+assign_width_underflow: [uninspected] Width of assignment RHS is less than width of LHS.  LHS Expression '{cout,post_add_sub}', LHS Width '49', RHS Width '48', Module 'DSP48A1', File 'D:/Digital_Design/Project_1/design.v', Line '99'. [RTL ID:a7b96903_00200]
+
+
+
+----------------
+| Warning (37) |
+----------------
+
+Check: condition_const [Category: Rtl Design Style] (2)
+       [Message: Condition expression is a constant. Module '<module>', File '<file>', Line '<line>'.]
+-------------------------------------------------------------------------------------------------------
+condition_const: [uninspected] Condition expression is a constant. Module 'DSP48A1', File 'D:/Digital_Design/Project_1/design.v', Line '44'. [RTL ID:4f116fc7_00200]
+
+condition_const: [uninspected] Condition expression is a constant. Module 'DSP48A1', File 'D:/Digital_Design/Project_1/design.v', Line '90'. [RTL ID:58df5a45_00200]
+
+
+Check: mux_select_const [Category: Connectivity] (9)
+       [Message: Constant value drives mux select pin. Signal '<signal>', Module '<module>', File '<file>', Line '<line>'.]
+----------------------------------------------------------------------------------------------------------------------------
+mux_select_const: [uninspected] Constant value drives mux select pin. Signal 'm1.out', Module 'mux2', File 'D:/Digital_Design/Project_1/mux2.v', Line '6'.
+
+mux_select_const: [uninspected] Constant value drives mux select pin. Signal 'm11.out', Module 'mux2', File 'D:/Digital_Design/Project_1/mux2.v', Line '6'.
+
+mux_select_const: [uninspected] Constant value drives mux select pin. Signal 'm2.out', Module 'mux2', File 'D:/Digital_Design/Project_1/mux2.v', Line '6'.
+
+mux_select_const: [uninspected] Constant value drives mux select pin. Signal 'm3.out', Module 'mux2', File 'D:/Digital_Design/Project_1/mux2.v', Line '6'.
+
+mux_select_const: [uninspected] Constant value drives mux select pin. Signal 'm4.out', Module 'mux2', File 'D:/Digital_Design/Project_1/mux2.v', Line '6'.
+
+mux_select_const: [uninspected] Constant value drives mux select pin. Signal 'm6.out', Module 'mux2', File 'D:/Digital_Design/Project_1/mux2.v', Line '6'.
+
+mux_select_const: [uninspected] Constant value drives mux select pin. Signal 'm7.out', Module 'mux2', File 'D:/Digital_Design/Project_1/mux2.v', Line '6'.
+
+mux_select_const: [uninspected] Constant value drives mux select pin. Signal 'm8.out', Module 'mux2', File 'D:/Digital_Design/Project_1/mux2.v', Line '6'.
+
+mux_select_const: [uninspected] Constant value drives mux select pin. Signal 'op_mux.out', Module 'mux2', File 'D:/Digital_Design/Project_1/mux2.v', Line '6'.
+
+
+Check: assign_with_multi_arith_operations [Category: Rtl Design Style] (1)
+       [Message: Assignment statement has more than one arithmetic operation. Expression '<expression>', Operator Count '<count>', Module '<module>', File '<file>' Line '<line>'.]
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+assign_with_multi_arith_operations: [uninspected] Assignment statement has more than one arithmetic operation. Expression 'z_mux+x_mux+{'h000000000000,cin1_mux}', Operator Count '2', Module 'DSP48A1', File 'D:/Digital_Design/Project_1/design.v' Line '97'. [RTL ID:431f8388_00200]
+
+
+Check: ordered_port_connection [Category: Connectivity] (25)
+       [Message: Instantiation specifies positional ports.  Module '<module>', File '<file>', Line '<line>'.]
+--------------------------------------------------------------------------------------------------------------
+ordered_port_connection: [uninspected] Instantiation specifies positional ports.  Module 'DSP48A1', File 'D:/Digital_Design/Project_1/design.v', Line '34'. [RTL ID:7d583e51_00200]
+
+ordered_port_connection: [uninspected] Instantiation specifies positional ports.  Module 'DSP48A1', File 'D:/Digital_Design/Project_1/design.v', Line '35'. [RTL ID:27adb581_00200]
+
+ordered_port_connection: [uninspected] Instantiation specifies positional ports.  Module 'DSP48A1', File 'D:/Digital_Design/Project_1/design.v', Line '39'. [RTL ID:56b9c53a_00200]
+
+ordered_port_connection: [uninspected] Instantiation specifies positional ports.  Module 'DSP48A1', File 'D:/Digital_Design/Project_1/design.v', Line '40'. [RTL ID:ecbdb798_00200]
+
+ordered_port_connection: [uninspected] Instantiation specifies positional ports.  Module 'DSP48A1', File 'D:/Digital_Design/Project_1/design.v', Line '45'. [RTL ID:acdc0cc3_00200]
+
+ordered_port_connection: [uninspected] Instantiation specifies positional ports.  Module 'DSP48A1', File 'D:/Digital_Design/Project_1/design.v', Line '46'. [RTL ID:745a44dd_00200]
+
+ordered_port_connection: [uninspected] Instantiation specifies positional ports.  Module 'DSP48A1', File 'D:/Digital_Design/Project_1/design.v', Line '50'. [RTL ID:4f3bade_00200]
+
+ordered_port_connection: [uninspected] Instantiation specifies positional ports.  Module 'DSP48A1', File 'D:/Digital_Design/Project_1/design.v', Line '51'. [RTL ID:4ad8669e_00200]
+
+ordered_port_connection: [uninspected] Instantiation specifies positional ports.  Module 'DSP48A1', File 'D:/Digital_Design/Project_1/design.v', Line '55'. [RTL ID:bf28e0f9_00200]
+
+ordered_port_connection: [uninspected] Instantiation specifies positional ports.  Module 'DSP48A1', File 'D:/Digital_Design/Project_1/design.v', Line '56'. [RTL ID:5570c430_00200]
+
+ordered_port_connection: [uninspected] Instantiation specifies positional ports.  Module 'DSP48A1', File 'D:/Digital_Design/Project_1/design.v', Line '63'. [RTL ID:a99a8177_00200]
+
+ordered_port_connection: [uninspected] Instantiation specifies positional ports.  Module 'DSP48A1', File 'D:/Digital_Design/Project_1/design.v', Line '64'. [RTL ID:340befa4_00200]
+
+ordered_port_connection: [uninspected] Instantiation specifies positional ports.  Module 'DSP48A1', File 'D:/Digital_Design/Project_1/design.v', Line '65'. [RTL ID:91ef92b8_00200]
+
+ordered_port_connection: [uninspected] Instantiation specifies positional ports.  Module 'DSP48A1', File 'D:/Digital_Design/Project_1/design.v', Line '70'. [RTL ID:8ba5ad92_00200]
+
+ordered_port_connection: [uninspected] Instantiation specifies positional ports.  Module 'DSP48A1', File 'D:/Digital_Design/Project_1/design.v', Line '71'. [RTL ID:54b9fb75_00200]
+
+ordered_port_connection: [uninspected] Instantiation specifies positional ports.  Module 'DSP48A1', File 'D:/Digital_Design/Project_1/design.v', Line '76'. [RTL ID:bbcc2c76_00200]
+
+ordered_port_connection: [uninspected] Instantiation specifies positional ports.  Module 'DSP48A1', File 'D:/Digital_Design/Project_1/design.v', Line '77'. [RTL ID:eb3116fb_00200]
+
+ordered_port_connection: [uninspected] Instantiation specifies positional ports.  Module 'DSP48A1', File 'D:/Digital_Design/Project_1/design.v', Line '82'. [RTL ID:b00944f7_00200]
+
+ordered_port_connection: [uninspected] Instantiation specifies positional ports.  Module 'DSP48A1', File 'D:/Digital_Design/Project_1/design.v', Line '86'. [RTL ID:b2604a46_00200]
+
+ordered_port_connection: [uninspected] Instantiation specifies positional ports.  Module 'DSP48A1', File 'D:/Digital_Design/Project_1/design.v', Line '91'. [RTL ID:64f62f0c_00200]
+
+ordered_port_connection: [uninspected] Instantiation specifies positional ports.  Module 'DSP48A1', File 'D:/Digital_Design/Project_1/design.v', Line '92'. [RTL ID:7477e823_00200]
+
+ordered_port_connection: [uninspected] Instantiation specifies positional ports.  Module 'DSP48A1', File 'D:/Digital_Design/Project_1/design.v', Line '100'. [RTL ID:6b124fea_00200]
+
+ordered_port_connection: [uninspected] Instantiation specifies positional ports.  Module 'DSP48A1', File 'D:/Digital_Design/Project_1/design.v', Line '101'. [RTL ID:e9305cef_00200]
+
+ordered_port_connection: [uninspected] Instantiation specifies positional ports.  Module 'DSP48A1', File 'D:/Digital_Design/Project_1/design.v', Line '107'. [RTL ID:a648ab36_00200]
+
+ordered_port_connection: [uninspected] Instantiation specifies positional ports.  Module 'DSP48A1', File 'D:/Digital_Design/Project_1/design.v', Line '108'. [RTL ID:b6fc7c3b_00200]
+
+
+
+-------------
+| Info (15) |
+-------------
+
+Check: conditional_operator_nested [Category: Rtl Design Style] (1)
+       [Message: Conditional operator has a nested conditional operator. Module '<module>', File '<file>', Line '<line>'.]
+---------------------------------------------------------------------------------------------------------------------------
+conditional_operator_nested: [uninspected] Conditional operator has a nested conditional operator. Module 'DSP48A1', File 'D:/Digital_Design/Project_1/design.v', Line '44'.
+    1 more occurrence at: line 90.
+
+
+Check: const_reg_data [Category: Connectivity] (1)
+       [Message: Constant value drives register data pin. Signal '<signal>', Module '<module>', File '<file>', Line '<line>'.]
+-------------------------------------------------------------------------------------------------------------------------------
+const_reg_data: [uninspected] Constant value drives register data pin. Signal 'CYO.q', Module 'dff', File 'D:/Digital_Design/Project_1/DFF.v', Line '11'.
+
+
+Check: gen_label_missing [Category: Rtl Design Style] (1)
+       [Message: Generate block label missing in the module. GenBlock '<genblock>', Module '<module>', File '<file>', Line '<line>'.]
+--------------------------------------------------------------------------------------------------------------------------------------
+gen_label_missing: [uninspected] Generate block label missing in the module. GenBlock 'if', Module 'dff', File 'D:/Digital_Design/Project_1/DFF.v', Line '8'.
+    1 more occurrence at: line 13.
+
+
+Check: multiplication_operator [Category: Rtl Design Style] (1)
+       [Message: Expression has a multiplication operator. Module '<module>', File '<file>', Line '<line>'.]
+-------------------------------------------------------------------------------------------------------------
+multiplication_operator: [uninspected] Expression has a multiplication operator. Module 'DSP48A1', File 'D:/Digital_Design/Project_1/design.v', Line '75'. [RTL ID:855bcc83_00200]
+
+
+Check: parameter_name_duplicate [Category: Nomenclature Style] (2)
+       [Message: Same parameter name is used in more than one module. Parameter '<parameter>', Total count '<count>', First module: Module '<module1>', File '<file1>', Line '<line1>', Second module: Module '<module2>', File '<file2>', Line '<line2>']
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+parameter_name_duplicate: [uninspected] Same parameter name is used in more than one module. Parameter 'WIDTH', Total count '3', First module: Module 'dff', File 'D:/Digital_Design/Project_1/DFF.v', Line '2', Second module: Module 'mux2', File 'D:/Digital_Design/Project_1/mux2.v', Line '2'
+
+parameter_name_duplicate: [uninspected] Same parameter name is used in more than one module. Parameter 'RSTTYPE', Total count '2', First module: Module 'DSP48A1', File 'D:/Digital_Design/Project_1/design.v', Line '19', Second module: Module 'dff', File 'D:/Digital_Design/Project_1/DFF.v', Line '3'
+
+
+Check: reserved_keyword [Category: Nomenclature Style] (2)
+       [Message: Name of the design element matches a reserved keyword. Name '<name>', Reason '<reason>', Module '<module>', File '<file>', Line '<line>'.]
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+reserved_keyword: [uninspected] Name of the design element matches a reserved keyword. Name 'out', Reason 'VHDL keyword', Module 'mux2', File 'D:/Digital_Design/Project_1/mux2.v', Line '5'.
+
+reserved_keyword: [uninspected] Name of the design element matches a reserved keyword. Name 'out', Reason 'VHDL keyword', Module 'mux4', File 'D:/Digital_Design/Project_1/mux4.v', Line '5'.
+
+
+Check: unloaded_input_port [Category: Connectivity] (3)
+       [Message: Module input drives no logic. Port '<port>', Module '<module>', File '<file>', Line '<line>'.]
+----------------------------------------------------------------------------------------------------------------
+unloaded_input_port: [uninspected] Module input drives no logic. Port 'bcin', Module 'DSP48A1', File 'D:/Digital_Design/Project_1/design.v', Line '21'.
+
+unloaded_input_port: [uninspected] Module input drives no logic. Port 'carryin', Module 'DSP48A1', File 'D:/Digital_Design/Project_1/design.v', Line '25'.
+
+unloaded_input_port: [uninspected] Module input drives no logic. Port 'ccec', Module 'DSP48A1', File 'D:/Digital_Design/Project_1/design.v', Line '25'.
+
+
+Check: multi_ports_in_single_line [Category: Rtl Design Style] (4)
+       [Message: Multiple ports are declared in one line. Module '<module>', File '<file>', Line '<line>'.]
+------------------------------------------------------------------------------------------------------------
+multi_ports_in_single_line: [uninspected] Multiple ports are declared in one line. Module 'dff', File 'D:/Digital_Design/Project_1/DFF.v', Line '5'.
+
+multi_ports_in_single_line: [uninspected] Multiple ports are declared in one line. Module 'DSP48A1', File 'D:/Digital_Design/Project_1/design.v', Line '21'.
+    5 more occurrences at: line 22, line 24, line 25, line 27, and line 29.
+
+multi_ports_in_single_line: [uninspected] Multiple ports are declared in one line. Module 'mux2', File 'D:/Digital_Design/Project_1/mux2.v', Line '3'.
+
+multi_ports_in_single_line: [uninspected] Multiple ports are declared in one line. Module 'mux4', File 'D:/Digital_Design/Project_1/mux4.v', Line '3'.
+
+
+
+----------------
+| Resolved (0) |
+----------------
+
+
+
+====================================================================================================
+Section 3 : Design Information
+====================================================================================================
+-----------
+| Summary |
+-----------
+  Register Bits                           : 232
+  Latch Bits                              : 0
+  User-specified Blackboxes               : 0
+  Inferred Blackboxes                     : 0
+  Empty Modules                           : 0
+  Unresolved Modules                      : 0
+  Hierarchical IPs                        : 0
+

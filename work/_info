@@ -1,0 +1,173 @@
+m255
+K4
+z2
+Z0 !s99 nomlopt
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+!s11f MIXED_VERSIONS
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z1 dD:/Digital_Design/Project_1
+T_opt
+!s110 1741224770
+VCbPPJoEG2WKf?9;[1gG]62
+04 10 4 work DSP48A1_tb fast 0
+=1-204747b89d99-67c8fb42-9-5c14
+!s124 OEM100
+o-quiet -auto_acc_if_foreign -work work +acc
+Z2 tCvgOpt 0
+n@_opt
+OL;O;2021.1;73
+vdff
+Z3 !s110 1741224765
+!i10b 1
+!s100 IWGnzC>b][:o=nNziGX@I0
+IjNmXN`f]UI4YN:V3YhZo10
+R1
+w1740251652
+8DFF.v
+FDFF.v
+!i122 92
+L0 1 21
+Z4 VDg1SIo80bB@j0V0VzS_@n1
+Z5 OL;L;2021.1;73
+r1
+!s85 0
+31
+Z6 !s108 1741224765.000000
+Z7 !s107 mux4.v|mux2.v|DFF.v|testbench.v|design.v|
+Z8 !s90 -reportprogress|300|design.v|testbench.v|DFF.v|mux2.v|mux4.v|
+!i113 0
+Z9 o-L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R2
+vDSP48A1
+R3
+!i10b 1
+!s100 ;j0J>lKJE>?4NZ4Z=zJFH2
+I>m;K]U7ifbSSAd_21fLGT3
+R1
+w1741221359
+8design.v
+Fdesign.v
+!i122 92
+L0 1 111
+R4
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R2
+n@d@s@p48@a1
+vDSP48A1_tb
+R3
+!i10b 1
+!s100 Z7jH8flJ8R9<HDf<SJYkl2
+I<RcQ4<1O2O7ZlGhD^Ihi23
+R1
+w1741224756
+8testbench.v
+Ftestbench.v
+!i122 92
+L0 1 211
+R4
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R2
+n@d@s@p48@a1_tb
+vmux2
+R3
+!i10b 1
+!s100 YDjZzo9zfARYBWS4H7REX1
+I^?cR:VR38SLa?A34PQFNZ1
+R1
+w1740261871
+8mux2.v
+Fmux2.v
+!i122 92
+L0 1 7
+R4
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R2
+vmux4
+R3
+!i10b 1
+!s100 kmW=Y?oHz5i`D^PRA`nkz0
+IEmc:IzS>J_lYNKhNKgSBz0
+R1
+w1740261724
+8mux4.v
+Fmux4.v
+!i122 92
+L0 1 14
+R4
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R2

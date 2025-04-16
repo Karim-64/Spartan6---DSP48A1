@@ -1,0 +1,4 @@
+D:/Digital_Design/Project_1/DFF.v#@#6
+D:/Digital_Design/Project_1/design.v#@#42
+D:/Digital_Design/Project_1/mux2.v#@#12
+D:/Digital_Design/Project_1/mux4.v#@#3

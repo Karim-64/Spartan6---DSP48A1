@@ -1,0 +1,1 @@
+TraceSignalModule;DSP48A1;c_reg,DSP48A1,
